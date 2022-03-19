@@ -14,7 +14,10 @@ const TaskList = (props) => {
      const dispatch = useDispatch()
 
      const handleDelete = (id) => {
-          dispatch(startDeleteTask(id))
+          const confirmDelete = window.confirm('Are you sure?')
+          if (confirmDelete) {
+               dispatch(startDeleteTask(id))
+          }
      }
 
      const handleToggle = () => {
