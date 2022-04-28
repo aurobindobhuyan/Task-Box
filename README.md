@@ -10,16 +10,15 @@
 - 🌐 ReactJS | Redux
 - 🔧 Git | Markdown
 - 📦 Axios, React, Redux, uuid, redux-thunk, Material-UI
-## Installation
 
-- goto https://github.com/dctacademy/tasks-fs
-- run the command git clone https://github.com/dctacademy/tasks-fs.git
-- go inside the tasks-fs folder
-- install the packages with npm install
-- run the backend server with node app.js
+#### Installation
+    - goto https://github.com/dctacademy/tasks-fs
+    - run the command git clone https://github.com/dctacademy/tasks-fs.git
+    - go inside the tasks-fs folder
+    - install the packages with npm install
+    - run the backend server with node app.js
+
 In the project directory, you can run:
-
-In the project directory - you can run
 ### `npm start`
 
 Runs the app in the development mode.\
